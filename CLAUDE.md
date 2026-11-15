@@ -2,19 +2,27 @@
 
 This file provides guidance to AI assistants working in this repository.
 
-## Repository Status
+## Project Purpose
 
-This repository is newly initialized and currently empty. No source code, build system, tests, or documentation have been added yet.
+A library of Claude skills distilled from studying creators' methods (no application code). Skill content is written in Italian; industry terms (CPL, VSL, ad set, CAPI…) stay in English.
 
-## Getting Started
+## Directory Layout
 
-When the project is bootstrapped, update this file to reflect:
+- `.claude/skills/<name>/SKILL.md` — one skill per folder, loaded automatically by Claude Code in this repo
+- `.claude/skills/<name>/references/` — detail files the SKILL.md points to (progressive disclosure)
+- `.claude/skills/<name>/evals/` — test cases in the `claude plugin eval` layout (`prompt.md`, `case.yaml`, `graders/`); excluded from packaging
+- `dist/<name>.skill` — packaged skill for upload to claude.ai (zip of the skill folder, without `evals/`)
 
-- **Project purpose** — what this repo builds/does
-- **Tech stack** — language(s), frameworks, runtime versions
-- **Directory layout** — where source, tests, config, and assets live
-- **Dev workflow** — how to install dependencies, run locally, run tests, lint
-- **Conventions** — naming, formatting, commit style, branch strategy
+Current skills:
+
+- `revel-meta-leadgen` — Revel Loughlin's Meta Ads lead generation method, from 5 videos (Sep 2025 – Nov 2026); sources listed in `references/fonti-e-casi-studio.md`
+
+## Conventions
+
+- Skill names are kebab-case; the `description` frontmatter must stay under 1024 characters and contain no angle brackets
+- Keep SKILL.md under ~500 lines; push detail into `references/`
+- Mark interpretations that are not the creator's own words, and keep a "Lacune" (gaps) list of what has not been studied yet
+- After editing a skill, re-validate and re-package it with the skill-creator scripts (`quick_validate`, `package_skill`)
 
 ## Git Workflow
 

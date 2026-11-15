@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: diagnosi-lead-economici-dentista
+expected_outcome: |
+  Una diagnosi in ordine di priorita secondo il metodo Revel: calcolo del costo per prima visita
+  rispetto al valore del paziente, richiamo il giorno dopo indicato come collo di bottiglia
+  principale (chiamata entro 5 minuti), immagine con offerta irresistibile verso modulo
+  istantaneo riconosciuta come funnel a basso intento che richiede follow-up aggressivo,
+  struttura sotto la soglia (5 ads in un ad set a 25 euro), domande di qualifica e thank-you
+  page con prenotazione, creatività trust-first, regola keep-or-kill al giorno 4 con un tetto.
