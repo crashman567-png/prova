@@ -2,6 +2,8 @@
 
 Indice: 1. Formule · 2. Tetto CPL · 3. Costo per call vs CPL · 4. Soglie di budget e volume · 5. Qualità vs intento · 6. Ads o vendite: di chi è la responsabilità · 7. Discovery vs proven · 8. Checklist di diagnosi estesa
 
+Importi: come li cita Revel, quasi sempre dollari australiani (1 AUD ≈ 0,61-0,63 €). Le formule valgono in qualsiasi valuta.
+
 ## 1. Formule
 
 | Grandezza | Formula | Nota |
@@ -35,7 +37,9 @@ Per i ticket alti la scala cambia: un cliente con fee da 35-50K paga circa 600 $
 
 ## 4. Soglie di budget e volume
 
-- **Minimo per ad:** circa 30 $/giorno per un business locale, circa 50 $ per uno nazionale. Sotto quella cifra le sue strategie non hanno abbastanza dati.
+- **Minimo per ad:** circa 30 AUD/giorno per un business locale, circa 50 AUD per uno nazionale. Sotto quella cifra le sue strategie non hanno abbastanza dati.
+  - La soglia nazionale non è un dogma: nel suo esempio a 100 AUD/giorno usa 3 ad set da 30 AUD anche per clienti non locali.
+  - In euro e per l'Italia usa la regola derivata del budget minimo per ad = tetto CPL ÷ 4 (`profilo-strumenti-e-posizioni.md` §2).
 - **4 giorni per ad** servono ad accumulare abbastanza impression per dire "buono" o "cattivo" con certezza.
 - **Giudicare sulle call con budget piccoli:** con 30 $/giorno e un costo per call di 300 $ servono 10 giorni per vedere una sola call. In questi casi giudica l'ad sul CPL e misura le call a parte, oppure usa l'evento sequence se l'account lo ha.
 - **B2B di nicchia** (es. agenzie che lavorano solo con aziende da 200K al mese): il pubblico è piccolo, quindi il CPL è più alto del B2C. È normale, a meno che il problema sia l'offerta.

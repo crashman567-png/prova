@@ -7,15 +7,21 @@ description: Metodo di lead generation su Meta Ads (Facebook e Instagram) di Rev
 
 Revel Loughlin fa ads dal 2012. È socio di un'azienda solare in Queensland (circa 14 milioni di fatturato annuo, oltre mezzo milione l'anno di ad spend in profitto, circa 15K a settimana) e gestisce account di coach, aziende di servizi per la casa, agenzie e B2B. L'azienda solare è la sua cavia: quello che insegna è validato lì, salvo quando dice esplicitamente "sperimentale".
 
-Gli importi sono in $ come li cita lui (clienti AU/US/EU). Usali come ordini di grandezza: i tetti si ricalcolano sempre dalle unit economics del business in esame, nella sua valuta. Fonti e date dei video: `references/fonti-e-casi-studio.md`.
+**Valuta.** Revel è australiano e i suoi importi sono quasi sempre dollari australiani. A novembre 2026 1 AUD vale circa 0,61-0,63 €: 30 AUD ≈ 18-19 €, 50 AUD ≈ 31 €. In Italia e in molti paesi UE i CPM sono in genere più bassi, quindi le soglie in euro scendono ancora. Usa i suoi numeri come ordini di grandezza e ricalcola sempre i tetti dalle unit economics del business in esame, nella sua valuta.
+
+Altri riferimenti:
+- conversioni, adattamento all'Italia, strumenti che usa e posizioni controcorrente: `references/profilo-strumenti-e-posizioni.md`;
+- fonti e date dei video: `references/fonti-e-casi-studio.md`.
 
 ## I principi (il perché dietro ogni regola)
 
-1. **L'ad è la leva, e fa anche il targeting.** Niente interessi: è la creatività (hook, topic, chi chiami in causa) a trovare e filtrare il pubblico. Un ad giusto a 30 $/giorno batte un ad sbagliato a 1.000 $/giorno; se qualcuno propone "spendi di più" come soluzione, è un campanello d'allarme. Quando i risultati calano, guarda prima le ads, non l'algoritmo.
+1. **L'ad è la leva, e fa anche il targeting.** Niente interessi: è la creatività (hook, topic, chi chiami in causa) a trovare e filtrare il pubblico. Un ad giusto a 30 AUD/giorno batte un ad sbagliato a 1.000 AUD/giorno; se qualcuno propone "spendi di più" come soluzione, è un campanello d'allarme. Quando i risultati calano, guarda prima le ads, non l'algoritmo.
 2. **Il metro vero è il costo per call prenotata (o appuntamento), a qualità invariata.** Il CPL è il primo segnale, utile per avere volume da leggere. Il "santo graal" è abbassare il costo per call senza peggiorare la qualità.
-3. **Un ad per ad set, budget proprio, 4 giorni senza toccarlo, poi keep-or-kill** contro un tetto deciso prima, dai numeri. Mai meno di circa 30 $/giorno per ad (business locale) o 50 $ (nazionale): sotto quella soglia non arrivano abbastanza dati per giudicare.
+3. **Un ad per ad set, budget proprio, 4 giorni senza toccarlo, poi keep-or-kill** contro un tetto deciso prima, dai numeri. Ogni ad deve avere abbastanza budget per essere giudicato in 4 giorni.
+   - Revel non scende sotto 30 AUD/giorno per ad (business locale) e indica 50 AUD per il nazionale, cioè circa 18 e 31 €.
+   - Adattamento per Italia/UE (non di Revel): almeno **tetto CPL ÷ 4** al giorno, così in 4 giorni ogni ad spende almeno un tetto. In molte nicchie locali bastano 10-25 €.
 4. **Si scala in orizzontale.** Si aggiungono ad set con ads nuove da validare invece di gonfiare il budget dei vincenti. L'obiettivo è un account pieno di ads provate, così il flusso di lead non va a zero quando un ad si stanca.
-5. **Prima dai, poi chiedi.** Revel parla di "conto corrente della fiducia": quasi tutte le ads prelevano da un conto a zero (click, dati, sei domande, rispondi al telefono, vieni alla call) senza aver dato nulla. Le ads che insegnano versano fiducia e generano *intento*; l'offerta va "a sandwich" dentro il contenuto. Lead molto economici (sotto circa 25 $) di solito vogliono dire pubblico largo e intento basso.
+5. **Prima dai, poi chiedi.** Revel parla di "conto corrente della fiducia": quasi tutte le ads prelevano da un conto a zero (click, dati, sei domande, rispondi al telefono, vieni alla call) senza aver dato nulla. Le ads che insegnano versano fiducia e generano *intento*; l'offerta va "a sandwich" dentro il contenuto. Lead molto economici (sotto circa 25 AUD, cioè circa 15 €) di solito vogliono dire pubblico largo e intento basso.
 6. **Meno il funnel qualifica, più devono qualificare il form o i setter.** Il funnel si sceglie in base a chi richiama i lead e con quale velocità.
 7. **Il topic conta più del formato.** Prima trovi di cosa parlare (dalle parole dei clienti nelle trascrizioni delle call di vendita); il formato è il modo in cui ricicli un'idea vincente in tante ads.
 8. **Si decide sui dati, non sulle sensazioni.** Prima di toccare una campagna: "fammi vedere i dati" (CRM, sentiment dei setter, trascrizioni). Non si smonta una campagna che funziona per un aneddoto del team.
@@ -61,17 +67,21 @@ Domande guida:
 | Video → lead form | Con video trust-first (sketchbook, skillshow) che qualificano nei primi 10 secondi | Bastano poche domande |
 | Video → VSL | Il "santo graal" di oggi: video brevi e diretti (5-15 s) portano traffico, la VSL fa il lavoro pesante | 2-3 domande se l'ad qualifica; 5-6 con video da 15 s |
 
-Più filtri vuol dire costo per lead qualificato più alto ma meno lavoro sprecato per le vendite: è una scelta che dipende dalle persone che hai. Per testare i funnel dai circa 4 giorni a ciascuno e guarda il flusso di lead; se non arriva, passa al successivo. Evento di ottimizzazione: **lead** per partire (sotto circa 100 $/giorno), poi **call prenotata** su una seconda campagna quando il flusso è stabile, e **sequence** (lead + call) dove disponibile. Dettagli: `references/funnel-e-struttura.md`.
+Più filtri vuol dire costo per lead qualificato più alto ma meno lavoro sprecato per le vendite: è una scelta che dipende dalle persone che hai. Per testare i funnel dai circa 4 giorni a ciascuno e guarda il flusso di lead; se non arriva, passa al successivo. Evento di ottimizzazione: **lead** per partire (sotto circa 100 AUD/giorno, circa 60 €), poi **call prenotata** su una seconda campagna quando il flusso è stabile, e **sequence** (lead + call) dove disponibile. Dettagli: `references/funnel-e-struttura.md`.
 
 ### Passo 3: struttura e budget (ABO, un ad per ad set)
 
+Importi come li cita Revel, quasi sempre AUD (per avere gli euro dividi per circa 1,6).
+
 | Budget/giorno | Struttura | Come si giudica |
 |---|---|---|
-| 30 $ | 1 campagna, 1 ad set, 1 ad | Al giorno 4, CPL e numero di lead: buono → lascia correre; no → sostituisci l'ad |
-| 50 $ | 1 ad a 50 $; oppure, con VSL, un ad set da 30 $ con 1 video + uno da 20 $ con al massimo 3 statiche | Rotazione ogni 4 giorni |
-| 100 $ (ticket 4K+ venduto in call) | 3 ad set × 30 $, un video ciascuno | CPL contro un tetto (es. 65 $ dallo storico), poi vendite e cash dal CRM verso il giorno 8; se positivo, +30 $ con un ad nuovo |
-| 200 $ | 4 ad set × 50 $, un ad ciascuno, evento sequence | Call prenotata sotto 100 $; 5 giorni per ad perché il costo per call è più alto |
-| 1.000 $+ (team vendite, close 30-40 %, ticket 4K+, VSL) | 20 ads × 50 $, una per ad set, tutte video diretti da 15 s | Riferimento: CPL circa 55 $, call auto-prenotata 164 $ (scesa da 260 $) |
+| 30 AUD (≈ 18 €) | 1 campagna, 1 ad set, 1 ad | Al giorno 4, CPL e numero di lead: buono → lascia correre; no → sostituisci l'ad |
+| 50 AUD (≈ 31 €) | 1 ad a 50; oppure, con VSL, un ad set da 30 con 1 video + uno da 20 con al massimo 3 statiche | Rotazione ogni 4 giorni |
+| 100 AUD (ticket 4K+ venduto in call) | 3 ad set × 30, un video ciascuno | CPL contro un tetto (es. 65 dallo storico), poi vendite e cash dal CRM verso il giorno 8; se positivo, +30 con un ad nuovo |
+| 200 AUD | 4 ad set × 50, un ad ciascuno, evento sequence | Call prenotata sotto 100; 5 giorni per ad perché il costo per call è più alto |
+| 1.000 AUD+ (team vendite, close 30-40 %, ticket 4K+, VSL) | 20 ads × 50, una per ad set, tutte video diretti da 15 s | Riferimento: CPL circa 55, call auto-prenotata 164 (scesa da 260) |
+
+In euro e per l'Italia, il numero di ads si calcola dalla regola del principio 3: budget giornaliero ÷ (tetto CPL ÷ 4), senza scendere sotto la soglia di mercato. Esempio: 50 €/giorno con tetto CPL a 40 € fa 2 ads da 25 €.
 
 Regole che reggono la tabella:
 - **Quante ads:** budget giornaliero ÷ soglia minima per ad. Con troppe ads nello stesso ad set Meta ne spinge 2-3 e affama le altre, e non stai testando quello che credi.
@@ -101,7 +111,7 @@ Ogni 4 giorni, per ogni ad: spesa, lead (Meta e CRM), CPL, call prenotate, costo
 ## Diagnosi rapida (campagna che non rende)
 Procedi in quest'ordine e fermati appena trovi il collo di bottiglia:
 1. **Problema di lead o di vendite?** "Non abbiamo abbastanza lead" a volte significa "non chiudiamo abbastanza".
-2. **Numeri:** il CPL è davvero oltre il tetto? (Nel caso dell'agenzia, 71 $ a lead era già ampiamente redditizio.)
+2. **Numeri:** il CPL è davvero oltre il tetto? (Nel caso dell'agenzia, 71 AUD a lead era già ampiamente redditizio.)
 3. **Struttura:** budget per ad sopra la soglia? Quante ads per ad set?
 4. **Volume:** la spesa basta per arrivare a una decisione?
 5. **Ads:** generiche o copiate dai concorrenti? Insegnano? Hook assumptivo? L'ad dice la stessa cosa della VSL?
@@ -118,7 +128,7 @@ Casi svolti: `references/fonti-e-casi-studio.md`. Checklist estesa: `references/
 - Offerta irresistibile su immagine → lead form, senza follow-up fulmineo.
 - Chiedere il budget direttamente nel modulo; telefono facoltativo.
 - Giudicare al giorno 1; smontare campagne che funzionano per un aneddoto.
-- Tredici ads stipate in tre ad set; ads con meno di 30 $/giorno.
+- Tredici ads stipate in tre ad set; ads con troppo poco budget per essere giudicate in 4 giorni.
 - Lead economici come metrica di vanità.
 - Ads di recruiting fatte peggio di quelle per i clienti.
 
@@ -137,4 +147,5 @@ Scrivi nella lingua dell'utente e converti gli importi nella sua valuta, ricalco
 ## Limiti
 - Alcune cose sono sperimentali per sua stessa ammissione: l'automazione AI delle campagne (test di 4 giorni, "le ads sono bruttine"), l'evento sequence (funzione nuova e non presente in tutti gli account: verifica nome e disponibilità in Ads Manager), l'idea che lead form e landing raggiungano "pezzi" diversi dello stesso pubblico (speculazione).
 - L'interfaccia di Ads Manager cambia spesso: se un'opzione non c'è più, cerca l'equivalente e dillo.
+- Nei settori regolamentati (sanità, finanza, immobiliare) verifica le regole locali su pubblicità, testimonianze e dati personali: il metodo di Revel non le copre.
 - Gli argomenti non coperti dai video studiati sono elencati in `references/fonti-e-casi-studio.md`, sezione "Lacune".

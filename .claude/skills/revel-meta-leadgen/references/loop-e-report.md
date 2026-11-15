@@ -2,6 +2,8 @@
 
 Indice: 1. Calendario · 2. Regole keep/kill · 3. Sostituire i perdenti · 4. Template di report · 5. Precisione dei dati · 6. Feedback dalle vendite · 7. Automazione con Claude · 8. Lavorare con un connettore Meta Ads
 
+Importi: come li cita Revel, quasi sempre dollari australiani (1 AUD ≈ 0,61-0,63 €).
+
 ## 1. Calendario
 | Quando | Cosa |
 |---|---|

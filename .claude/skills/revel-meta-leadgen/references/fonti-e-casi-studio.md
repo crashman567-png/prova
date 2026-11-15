@@ -19,6 +19,8 @@ Nota sul metodo: i video sono stati studiati dalle trascrizioni automatiche. Alc
 
 ## Casi studio
 
+Importi: come li cita Revel, quasi sempre dollari australiani (1 AUD ≈ 0,61-0,63 €), salvo il cliente tedesco e quelli americani, per cui la valuta non è chiara.
+
 ### 1. Broker di mutui: lead a 4 $ e nessuno prenota
 - **Partenza**:
   - Target: redditi alti che "si sentono bloccati".
@@ -77,7 +79,7 @@ DM → DM con qualifica → lead form → VSL, circa 4 giorni ciascuno, giudicat
   - Pagavano 118-165 $ a lead, sostenibili fino a 150.
   - Con i nuovi tipi di ad sono scesi a 59 $, quasi la metà.
   - Stesso pubblico, stesse piattaforme, stesso budget: sono cambiate solo le ads.
-- **Lo skillshow del solare**: lanciato il 17 giugno, ancora attivo e intatto 99 giorni dopo, senza nessuna selezione di targeting.
+- **Un ad del solare lanciato il 17 giugno**: ancora attivo e intatto 99 giorni dopo, senza nessuna selezione di targeting. Revel lo usa come esempio di "creative targeting" senza dire di che tipo di ad si tratti.
 - **Oggi**:
   - Circa 15K $ a settimana, in gran parte su lead form.
   - KPI dell'advertising: costo per appuntamento sotto circa 212 $.

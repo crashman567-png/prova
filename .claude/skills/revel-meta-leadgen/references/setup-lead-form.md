@@ -8,7 +8,9 @@ Viene dal walkthrough "lead generation in 5 minuti" del video del 2025, aggiorna
 
 ## Ad set
 3. **Luogo di conversione**: *Instant forms* (moduli istantanei). Controlla che sia selezionata la Pagina giusta.
-4. **Budget giornaliero**: almeno circa 30 $ per un business locale, 50 $ per uno nazionale, per l'unico ad dell'ad set.
+4. **Budget giornaliero** per l'unico ad dell'ad set:
+   - Soglie di Revel: almeno circa 30 AUD (≈ 18 €) per un business locale, 50 AUD (≈ 31 €) per uno nazionale.
+   - In euro: almeno il tetto CPL ÷ 4 (vedi `profilo-strumenti-e-posizioni.md` §2).
 5. **Pubblico**:
    - Usa l'opzione per limitare ulteriormente la copertura e passa alle impostazioni manuali.
    - Imposta la geografia.

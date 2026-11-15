@@ -2,6 +2,8 @@
 
 Indice: A. Funnel (A1 tre pezzi · A2 le quattro combinazioni · A3 quanta qualificazione · A4 lead form o landing · A5 evento di ottimizzazione · A6 come testare i funnel) · B. Struttura e budget (B1 processo di test · B2 scala orizzontale · B3 quando spegnere · B4 test a scaglioni · B5 geografia · B6 placement e impostazioni · B7 evoluzione 2025 → 2026)
 
+Importi: come li cita Revel, quasi sempre dollari australiani (1 AUD ≈ 0,61-0,63 €). Per l'adattamento in euro vedi `profilo-strumenti-e-posizioni.md` §2.
+
 ## A. Funnel
 
 ### A1. I tre pezzi
@@ -58,7 +60,7 @@ Ogni funnel lead gen su Meta è fatto di: **tipo di ad** (immagine o video), **d
 | **Schedule** (call prenotata) | Flusso di lead costante settimana su settimana e circa 300-500 $/giorno | Sposta 100-150 $/giorno su una seconda campagna ottimizzata per schedule, per "coprire la scommessa" e cercare un costo per call più basso senza toccare quello che funziona |
 | **Sequence** (lead + call nello stesso ad set) | Dove disponibile: funzione nuova, che Revel ha visto comparire verso settembre-ottobre 2026 e che non tutti gli account hanno | A livello di ad set, scegliendo "massimizza il numero di lead qualificati" con CRM e Conversions API collegati. Meta vede sia i lead sia le call prenotate. Verifica nome e disponibilità in Ads Manager |
 
-**Risultati del sequence**: a parità di ads, landing, VSL e copy, cambiando solo l'evento il costo per call è sceso di circa 100 $; un cliente paga 67-77 $ per call, un altro 74 $. Per Revel è "la cosa più vicina a un trucco" per ottimizzare sulle call. Risolve il problema dei budget piccoli, dove giudicare sulle call richiederebbe 10 giorni per ad.
+**Risultati del sequence**: a parità di ads, landing, VSL e copy, cambiando solo l'evento il costo per call è sceso di circa 100 AUD. Per quell'account la call costa 67-77 AUD; in un altro video cita 74 AUD per un cliente con lo stesso evento, e potrebbe trattarsi dello stesso account. Per Revel è "la cosa più vicina a un trucco" per ottimizzare sulle call. Risolve il problema dei budget piccoli, dove giudicare sulle call richiederebbe 10 giorni per ad.
 
 **Se lead e call divergono molto**: troppe domande o troppa frizione? L'ad promette una cosa diversa da quella che dice la VSL? Esempio di una ditta di coperture: una landing per ogni dolore, e tutte le ads di quel dolore portano lì.
 
@@ -120,7 +122,7 @@ Ogni funnel lead gen su Meta è fatto di: **tipo di ad** (immagine o video), **d
   - Prima i dati, non l'aneddoto.
   - A circa 100 $/giorno si cambia qualcosa solo dopo 3 settimane di monitoraggio. In quel tempo vedi il calo, la turbolenza e la ripresa, e capisci se era un effetto stagionale (per esempio festività o turisti di passaggio).
   - Oltre 1.200-1.500 $/giorno i tempi si accorciano, per non perdere troppi soldi.
-  - Soglia indicativa per intervenire: oltre il 10 % di lead fuori zona, in modo stabile.
+  - Nessuna soglia percentuale: nella live qualcuno ha chiesto "oltre il 10 %?" e Revel ha risposto con un tempo di osservazione, non con una percentuale. Non attribuirgli una soglia.
 
 ### B6. Placement e impostazioni
 - **Esclusioni**: Revel non esclude placement, salvo per i click accidentali.
