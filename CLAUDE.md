@@ -17,6 +17,16 @@ Current skills:
 
 - `revel-meta-leadgen`: Revel Loughlin's Meta Ads lead generation method, from 5 videos (Sep 2025 - Nov 2026); sources listed in `references/fonti-e-casi-studio.md`
 
+## Context About the Owner: Look It Up, Never Ask
+
+The owner does not want questions about things that can be looked up. Before asking anything about their business, clients, preferences or history, search these sources, and state what you found instead of asking:
+
+- Synced claude.ai skills under `~/.claude/skills/synced/*/`, notably `stoic-second-brain` (map of the Notion second brain), `mentore-totale-giuseppe/references/profilo_completo.md`, `modular-video-ads-system/references/examples.md`, `business-architect`, `hormozi-100m-offers`
+- The Notion second brain via the Notion connector: the Areas database (Type = Clients) and the CRM database (Status = Client). The two are not fully in sync, so cross-check both
+- `vault_context` / `vault_write`, when those tools are available in the session
+
+Never infer a client's country from the language of their ads; check the CRM record.
+
 ## Conventions
 
 - Skill names are kebab-case; the `description` frontmatter must stay under 1024 characters and contain no angle brackets
