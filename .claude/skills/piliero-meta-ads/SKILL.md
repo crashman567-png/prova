@@ -24,7 +24,7 @@ Sam lavora su e-commerce: per lead gen, servizi, esperienze e budget piccoli leg
    - mai aggiungere ads a pack vecchi ("We never inject new ads into old packs. Let that sit with you. That is critical");
    - mai duplicare i winner.
 4. **Il test perfetto spende il meno possibile.**
-   - Il minimo del pack nuovo e' il piu' basso tra **1 CPA target** e il **20 % del budget**, per **7 giorni**, poi si toglie.
+   - Il minimo del pack nuovo e' il piu' basso tra **1 CPA target** e il **20 % del budget totale**, per **7 giorni**, poi si toglie.
    - "Proven is better than new": prima si spende sui vincitori.
    - "We don't need to spend 20% on testing. Get that out of your head."
 5. **Diversita' ragionevole, non volume.**
@@ -48,8 +48,13 @@ Sam lavora su e-commerce: per lead gen, servizi, esperienze e budget piccoli leg
 | Scalare | Passo 6 + `references/scala-e-metriche.md` |
 | Lead gen, servizi, esperienze, budget da 10-50 € | Prima `references/adattamento-lead-gen-budget-piccoli.md` |
 | Usare Claude e il connettore Meta | `references/claude-e-ai.md` |
+| Capire perche' le regole funzionano (retrieval, Andromeda, cosa conta come diverso) | `references/algoritmo-e-andromeda.md` |
 
-### Passo 1: audit
+### Passo 1: numeri e audit
+- **Il target si ricava dai numeri.**
+  - CPA e ROAS target vengono da break-even e LTV. Sam: "a line in the sand"; conta il profitto prima del ROAS.
+  - Se il target dichiarato e' sotto il pareggio (per esempio CPA 25 € su uno scontrino di 45 € con break-even a ROAS 2,2, cioe' ROAS 1,8), usa il pareggio come linea di decisione. Fa eccezione il caso in cui l'LTV (riacquisti) giustifichi di piu'.
+  - Il target decide vincitori e scala: sbagliarlo falsa tutto il resto.
 - **Audience segments** (Breakdown): quanta spesa va su new, engaged ed existing. Nel prospecting gli existing devono essere quasi a zero; Sam vede spesso il 40-50 % con frequenza 25 in 30 giorni.
 - **Struttura:**
   - quante campagne e ad set ci sono, e se ci sono ads nuove aggiunte a campagne consolidate o ad set in ABO a pioggia;
@@ -85,11 +90,15 @@ Sam lavora su e-commerce: per lead gen, servizi, esperienze e budget piccoli leg
 - **Retention:** CBO piccola sugli acquirenti, regolata sulla frequenza.
 - **Retargeting e scale:** solo se servono (retargeting quando gli engaged assorbono troppa spesa; scale con circa 5 winner).
 - **Tutte le impostazioni**, M3 (value rules, giorni della settimana) e M4 (cost cap): `references/struttura-e-setup.md`.
+- **Account gia' attivo:** non si smonta tutto in un giorno.
+  - Le ads che oggi portano risultati restano dove sono ("pack 0"): non si mettono in pausa e non si duplicano.
+  - La nuova struttura parte accanto, e il budget si sposta a scalini.
+  - Dettagli: `references/struttura-e-setup.md` §14.
 
 ### Passo 4: lanciare un pack
 1. Un concept (avatar + angolo) con 4-8 ads separate, cioe' gli hook.
 2. Duplica un pack, svuotalo, rinominalo col numero successivo, carica le ads nuove.
-3. Minimo: il piu' basso tra 1 CPA target e il 20 % del budget, contando tutti i minimi attivi.
+3. Minimo: il piu' basso tra 1 CPA target e il 20 % del budget totale, contando tutti i minimi attivi. Il primo pack parte senza minimo solo in un account nuovo; se c'e' un pack 0 che gia' spende, anche il primo pack nuovo ha il minimo.
 4. Sette giorni senza toccare nulla, poi togli il minimo e lascia l'ad set attivo.
 5. Un pack nuovo ogni 1-3 settimane, "like a drum beat".
 
@@ -123,7 +132,8 @@ Procedura completa e motivazioni: `references/test-e-pack.md`.
 - Pack nuovi senza minimo, o minimo tenuto oltre 7 giorni.
 - Ads nuove in pack o campagne esistenti: un'ad e' passata da 11 $ a 2.000 $ e ha affondato il ROAS.
 - Pause dei top spender, salti enormi di budget, decine di modifiche insieme.
-- Flexible ads, dynamic creative, enhancements che toccano il media, image generation.
+- Ads con piu' media quasi uguali (il vecchio formato flexible, sparito ad aprile 2026), dynamic creative, enhancements che toccano il media, image generation.
+  - "Flex media" tocca il media: tienilo solo se le anteprime nei placement sono corrette.
 - Escludere segmenti deboli invece di correggerli con le value rules; interessi e audience ristrette.
 - Ottimizzare per add to cart, checkout o eventi custom.
 - Varianti che cambiano solo il titolo o un filtro.
@@ -137,7 +147,9 @@ Procedura completa e motivazioni: `references/test-e-pack.md`.
   - minimi di 4-10 € al giorno con 20-50 € di budget;
   - verdetto al giorno 14;
   - vincitore = quota di spesa sopra la media e costo per lead entro il tetto;
+  - controllo a valle: dopo 30-40 lead per pack si guardano prenotazioni o vendite. Lead economici con zero prenotazioni sono un falso vincente;
   - niente retargeting a parte.
+- **Budget piccolo** vuol dire meno di circa 5 costi per risultato *attesi* al giorno: conta quello che paghi oggi, o la stima, non il tetto delle unit economics.
 - **Sotto circa 2,5 costi per risultato al giorno** la spesa forzata non dice quasi nulla: meglio trovare i concept con l'ABO di Revel e passare ai pack quando ci sono 2 o piu' vincitori.
 - **Tutto qui:** `references/adattamento-lead-gen-budget-piccoli.md`.
 

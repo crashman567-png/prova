@@ -1,6 +1,6 @@
 # Il sistema M4 e il setup dell'account
 
-Indice: 1. Il sistema M4 a quattro livelli · 2. Come e' cambiata la struttura · 3. Struttura dell'account (M1) · 4. Campagna di prospecting · 5. Ad set (pack) · 6. Ad · 7. Enhancements e formati · 8. Retargeting e scale facoltativi · 9. Retention · 10. M3, il cavallo piu' veloce · 11. M4, controlli di costo · 12. Naming · 13. Cose da non fare
+Indice: 1. Il sistema M4 a quattro livelli · 2. Come e' cambiata la struttura · 3. Struttura dell'account (M1) · 4. Campagna di prospecting · 5. Ad set (pack) · 6. Ad · 7. Enhancements e formati · 8. Retargeting e scale facoltativi · 9. Retention · 10. M3, il cavallo piu' veloce · 11. M4, controlli di costo · 12. Naming · 13. Cose da non fare · 14. Migrare un account esistente
 
 Le fonti sono i video di Sam Piliero indicati con la data (elenco in `fonti-e-dubbi.md`). Gli importi sono in dollari USA, come li cita lui. L'interfaccia di Ads Manager cambia spesso, e Sam stesso dice che le opzioni "might change in just the next day": se una voce non c'e' piu', cerca l'equivalente e segnalalo.
 
@@ -144,3 +144,16 @@ Perche' e' cambiato:
 - Mettere in pausa e riavviare per paura della learning phase.
 - Usare enhancements che toccano il media, o image generation.
 - Tenere tante ads non posizionate bene: da 165 ads attive a 62 il ROAS e' passato da 0,63 a 1,4.
+
+## 14. Migrare un account esistente
+
+Sam non da' una procedura di migrazione: mostra solo esiti, come un brand passato da ABO a "full holistic CBO" con +84 % di spesa e +107 % di fatturato in 60 giorni. Le regole che seguono sono un'**interpretazione** costruita con le sue stesse regole: mai in pausa i top spender, mai duplicare i winner, niente salti enormi di budget.
+
+1. **Pack 0.** Le ads e gli ad set che oggi portano risultati restano dove sono, senza pause ne' duplicazioni.
+2. **Nuova campagna di prospecting accanto.** Si costruisce secondo il §5. Il primo pack nuovo parte con il minimo, perche' deve competere con un pack 0 che gia' spende.
+3. **Budget a scalini.** Si sposta budget dalla vecchia struttura alla nuova del 20-30 % ogni 5-7 giorni, guardando le colonne anticipatrici.
+4. **Cosa spegnere prima.** Gli ad set a interessi e le ads che non spendono o sono sotto target in modo stabile. I top spender si spengono per ultimi, quando la nuova campagna porta da sola il volume.
+5. **I concept vincenti della vecchia struttura** non si duplicano: si ribriefano come pack nuovi, con iterazioni.
+6. **Evento.** Se la vecchia struttura ottimizza su un proxy (add to cart, checkout), la nuova parte su Purchase. Il confronto si fa sul costo per acquisto vero, non sui risultati della colonna.
+7. **Retention.** Si crea subito, piccola, solo se c'e' una lista clienti utile.
+

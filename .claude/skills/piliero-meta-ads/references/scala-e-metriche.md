@@ -70,7 +70,7 @@ Con il raddoppio, anche se la spesa sale del 100 % e il fatturato solo dell'80 %
 
 - **Salti enormi di budget.** Un costo per acquisto di 88-106 $ e' diventato 299, 252, 269 $ dopo un forte aumento: "the algorithm literally did not know what to do with that amount of change all at the same time".
 - **Ads nuove in campagne consolidate esistenti.** Un'ad e' passata da 11 $ a 2.000 $ in 30 giorni, si e' presa il budget e ha affondato il ROAS. Le ads nuove vanno sempre in un pack nuovo, con minimo.
-- **Taglie di aumento riviste** nello stesso video:
+- **Taglie di aumento** dette nello stesso video, coerenti con la tabella di §4. In caso di dubbio prevale la tabella di §4, che e' la piu' recente (novembre 2026):
   - +10 % se si e' appena sopra il target;
   - +20-30 % di norma;
   - +50 % e oltre se si e' molto sopra;

@@ -24,7 +24,7 @@ Sam considera "fundamentally broken" dopo GEM e Andromeda i tre metodi comuni:
 
 - **Scopo del test:** "The simple purpose of testing is to find out if winners can scale." E "Proven is better than new": prima si spende sui vincitori attuali.
 - **Il test perfetto** spende il meno possibile: "We don't need to spend 20% on testing. Get that out of your head."
-- **Minimo del pack nuovo:** il piu' basso tra **1 CPA target al giorno** e il **20 % del budget di campagna**, contando tutti i minimi attivi insieme ("we never want testing to represent more than 20% of our total account budget").
+- **Minimo del pack nuovo:** il piu' basso tra **1 CPA target al giorno** e il **20 % del budget totale** (in M1 il prospecting e' quasi tutto il budget), contando tutti i minimi attivi insieme ("we never want testing to represent more than 20% of our total account budget").
   - Esempi di Sam: CPA 47 $ con budget medio, minimo 47 $; budget 100 $ al giorno, minimo massimo 20 $.
   - Interpretazione: i pack in test in parallelo sono al massimo il 20 % del budget diviso il CPA. Con budget piccoli si testa un pack alla volta, con un minimo sotto 1 CPA e quindi un segnale piu' debole.
 - **Durata:** 7 giorni, poi "we pause the minimum budget. We keep the ad set active. We just remove the minimum." Non preoccuparsi della learning phase quando si toglie.
@@ -55,12 +55,17 @@ Sam considera "fundamentally broken" dopo GEM e Andromeda i tre metodi comuni:
   3. cerca spesa alta e ROAS incrementale alto.
   - Esempio: ad A, 7.500 $ e ROAS 2,6 (incrementale 2,3); ad B, 5.500 $ e ROAS 3,6 (incrementale 3). B e' la piu' scalabile.
 - **Finestra di giudizio:** nulla si tocca per 7-14 giorni dopo il lancio ("We then wait around 7 to 14 days before we touch anything"); l'analisi si fa a 7-14 giorni con l'attribuzione incrementale.
-- **Classificazione, a livello di singola ad** (non di pack):
+- **Due livelli di giudizio, con scopi diversi:**
+  - il **pack** (il concept) si giudica dalla spesa: al giorno 7, se ha speso solo il minimo, e' un probabile perdente. Serve a decidere se il concept ha mercato;
+  - la **singola ad** si classifica come sotto. Serve a decidere cosa iterare.
+- **"Sopra target":** si guarda il ROAS standard come primo filtro e quello incrementale per decidere, quando e' disponibile. Sam sceglie i winner per spesa e ROAS incrementale.
+- **Classificazione, a livello di singola ad:**
   - **winner:** spende oltre il 5 % del budget di campagna ed e' sopra target. Volume e valore insieme;
   - **potential:** soddisfa solo una delle due condizioni;
   - **sulla soglia:** non si tocca ("We're not going to touch those for now").
   - "Potential ads need to be tweaked. Winning ads need to be replicated."
 - **Soglia assoluta** usata nei suoi prompt: ROAS sopra 2-2,1 e oltre 5.000 $ di spesa in 30 giorni.
+- **Con meno di circa 20 ads attive** nella campagna, il 5 % e' troppo facile da superare. Interpretazione: usa come soglia di spesa la quota media, cioe' 1 diviso il numero di ads attive.
 - **Breakdown:** placement, eta', genere, piattaforma, landing, giorno della settimana, orientati ai segmenti che spendono di piu' e rendono meglio. Hanno senso solo con abbastanza dati.
 
 ## 6. Vincitori, perdenti, fatigue

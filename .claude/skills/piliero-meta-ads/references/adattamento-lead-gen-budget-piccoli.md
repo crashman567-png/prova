@@ -22,19 +22,21 @@ Indice: 1. Tabella di traduzione · 1b. Fasce di budget · 2. Cosa si rompe · 3
 
 ## 1b. Fasce di budget (interpretazione)
 
-La regola del minimo (il piu' basso tra 1 costo per risultato target e il 20 % del budget, per 7 giorni) regge a ogni budget, ma diventa sempre meno informativa:
+La regola del minimo (il piu' basso tra 1 costo per risultato target e il 20 % del budget, per 7 giorni) regge a ogni budget, ma diventa sempre meno informativa. Le fasce si misurano in costi per risultato **attesi**, cioe' quello che paghi oggi o la stima, non nel tetto ricavato dalle unit economics. Un business ad alto margine puo' avere un tetto alto ma comprare solo 3 lead al giorno.
 
 | Budget giornaliero | Cosa succede | Cosa fare |
 |---|---|---|
-| Almeno 5 costi per risultato target | Il sistema funziona come lo descrive Sam | M1 completo |
-| Tra 2,5 e 5 costi per risultato | Il minimo vale 0,5-1 risultato al giorno: regge, ma il test e' lento (30 € al giorno con costo per lead 10 €: minimo 6 €) | Versione minima (§3), verdetto al giorno 14 |
-| Sotto 2,5 costi per risultato | La spesa forzata non dice quasi nulla | ABO alla Revel per trovare i concept; pack CBO quando ci sono 2 o piu' vincitori da far convivere |
+| Almeno 5 costi per risultato attesi | Il sistema funziona come lo descrive Sam | M1 completo |
+| Tra 2,5 e 5 costi per risultato attesi | Il minimo vale 0,5-1 risultato al giorno: regge, ma il test e' lento (30 € al giorno con costo per lead 10 €: minimo 6 €) | Versione minima (§3), verdetto al giorno 14 |
+| Sotto 2,5 costi per risultato attesi | La spesa forzata non dice quasi nulla | ABO alla Revel per trovare i concept; pack CBO quando ci sono 2 o piu' vincitori da far convivere |
 
 Con lead molto economici (sotto 1 €), 1 costo per lead al giorno non forza nulla: si usa il 20 % del budget.
 
-**Vincitore con poche ads.** Il 5 % della spesa presuppone decine di ads; con 8-16 ads attive quasi tutte lo superano.
-- Meglio: quota di spesa sopra la media (1 diviso il numero di ads attive) e risultato vero entro il tetto.
-- Potential = una sola delle due condizioni.
+**Vincitore con poche ads: due livelli con scopi diversi.**
+- **Pack (il concept), verdetto al giorno 14:** vincente se nella seconda settimana prende almeno un quarto della spesa con costo per lead entro il target (§3). Serve a decidere se il concept resta.
+- **Singola ad, per decidere cosa iterare:** il 5 % della spesa presuppone decine di ads, e con 8-16 ads attive quasi tutte lo superano.
+  - Winner: quota di spesa sopra la media (1 diviso il numero di ads attive) e risultato vero entro il tetto.
+  - Potential: una sola delle due condizioni.
 
 **Non mescolare le regole.** Nei pack CBO niente decisioni prima di 7 giorni e giudizio a 14. Il keep or kill al giorno 4 resta per la struttura ABO di Revel, in una campagna separata.
 
@@ -53,21 +55,27 @@ Con lead molto economici (sotto 1 €), 1 costo per lead al giorno non forza nul
 3. **Pack:**
    - al massimo 3-5 attivi;
    - ognuno e' un avatar + un body, con 3-5 hook come ads separate;
-   - 2-3 primary text diversi e 3 headline.
+   - 2-3 primary text diversi e 2-3 headline.
 4. **Minimo:** il piu' basso tra 1 costo per lead target e il 20 % del budget, meno i minimi gia' attivi.
    - 20 € al giorno e costo per lead 8 €: minimo 4 €, 28 € in 7 giorni, cioe' circa 3-4 lead.
    - 50 € al giorno e costo per lead 10 €: minimo 10 €, 70 € in 7 giorni, cioe' circa 7 lead.
-5. **Un pack in test alla volta.** Il primo pack di un account nuovo parte senza minimo.
+5. **Un pack in test alla volta.**
+   - Il primo pack di un account nuovo parte senza minimo.
+   - Se l'account ha gia' ads che portano risultati, restano dove sono come "pack 0", senza pause e senza duplicazioni. In quel caso anche il primo pack nuovo parte con il minimo, se no non riceve spesa.
 6. **Giorno 7:** togli il minimo e lascia l'ad set attivo.
 7. **Giorno 14:**
    - vincente se nella seconda settimana prende almeno un quarto della spesa con costo per lead entro il target;
    - perdente se scende sotto il 5 % della spesa;
    - se prende oltre il 30 % con costo per lead oltre 1,5 volte il target: maximum o pausa.
+   - **Controllo a valle:** dopo 30-40 lead per pack si guardano le prenotazioni o le vendite di quei lead. Un pack con lead economici e zero prenotazioni e' un falso vincente, come i lead a 4 $ di Revel che "volevano un calcolatore gratis".
 8. **Ritmo:** un pack nuovo ogni 7-14 giorni. I 4 body del sistema modulare diventano 4 pack in 4-6 settimane:
-   - settimana 1: P1 senza minimo;
-   - settimana 2: P2 con il minimo;
-   - settimana 3: via il minimo a P2, lancio di P3;
-   - settimana 4: P4 e prima lettura di P1-P3.
+   - giorno 0: lancio di P1 (senza minimo se l'account e' nuovo, con il minimo se c'e' un pack 0);
+   - giorno 7: via il minimo a P1, lancio di P2 con il minimo;
+   - giorno 14: verdetto su P1, via il minimo a P2, lancio di P3;
+   - giorno 21: verdetto su P2, via il minimo a P3, lancio di P4;
+   - giorno 28: verdetto su P3, via il minimo a P4;
+   - giorno 35: verdetto su P4.
+   - Ogni pack si giudica 14 giorni dopo il suo lancio, mai prima.
 9. **Dopo un vincitore:** nuove riprese sullo stesso body (hook nuovi, altra persona, altro luogo) in un pack nuovo, mai in quello vecchio.
 10. **Impostazioni:**
     - enhancements con la regola di Sam e image generation spenta;
@@ -75,12 +83,23 @@ Con lead molto economici (sotto 1 €), 1 costo per lead al giorno non forza nul
     - optimized website destination spento se la landing e' una pagina sola;
     - traduzioni spente, salvo dove arrivano davvero clienti stranieri (es. un surf camp alle Canarie) e il cliente risponde in quelle lingue;
     - breakdown solo dopo circa 50 lead.
-11. **Scala:** solo con costo per lead stabilmente sotto il target, +20-30 % ogni 5-7 giorni, giudicando su finestre di 7 giorni. Mai inseguire un singolo giorno.
+11. **Scala:** solo con costo per lead stabilmente sotto il target.
+    - Si usa la tabella di Sam (`scala-e-metriche.md` §4) applicata alla distanza del costo per lead dal target. Per esempio, 30-50 % sotto il target: +20-40 %.
+    - Si giudica su finestre di 7 giorni, perche' a questi volumi un ciclo equivale a un valore d'ordine alto. Mai inseguire un singolo giorno.
+    - Prima di alzare, controlla che il cliente abbia capacita' da vendere: posti liberi, quote della stagione.
+12. **Quanti pack attivi:** al massimo circa 5 che ricevono spesa vera. I pack che dopo il giorno 14 spendono meno del 5 % si possono mettere in pausa solo per leggibilita': non spendono e non perdono nulla. Mai in pausa i top spender.
+13. **Offerte riservate per natura** (per esempio un camp solo per donne): non sono un "segmento debole" da correggere con le value rules, sono un requisito dell'offerta. Interpretazione:
+    - si parte broad, con una chiamata in causa esplicita nell'hook;
+    - dopo circa 50 lead si guarda il breakdown per genere;
+    - se una quota rilevante della spesa (oltre il 10-15 %) va a chi non puo' comprare, si restringe.
+14. **Risultato vero dentro Meta:** quando si puo', le prenotazioni chiuse su WhatsApp o in call si rimandano a Meta come eventi offline o via Conversions API, cosi' l'account impara anche da quelle (Sam mette "eventi offline se esistono" nel tracking).
 
 ## 4. Varianti
 
 - **10-20 € al giorno:** il minimo scende a 2-4 € e diventa quasi simbolico, con decisioni a 14-21 giorni. Qui la struttura di Sam aggiunge poco: un test alla Revel (un ad per ad set in ABO) e' piu' leggibile.
-- **Piccolo e-commerce** (box CSA online, prodotti fisici): regole di Sam intatte con evento Purchase, verdetti a 14-21 giorni invece di 7.
+- **Piccolo e-commerce** (box CSA online, prodotti fisici), cioe' sotto circa 5 CPA attesi al giorno:
+  - regole di Sam intatte con evento Purchase, ma verdetti a 14-21 giorni invece di 7;
+  - retention solo con una lista di almeno circa 1.000 clienti, a partire dal 5-10 % del budget e alzandola guardando la frequenza ("very low to start and work it up").
 - **Booking ad alto biglietto** (retreat oltre circa 1.000 €) ottimizzato sul pagamento: vale l'eccezione ABO di Sam. Con 30-50 € al giorno pero' conviene ottimizzare su Lead e qualificare dopo, con il metodo Revel.
 
 ## 5. Quando usare Revel invece di Sam
