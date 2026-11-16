@@ -55,6 +55,11 @@ Sam lavora su e-commerce: per lead gen, servizi, esperienze e budget piccoli leg
   - CPA e ROAS target vengono da break-even e LTV. Sam: "a line in the sand"; conta il profitto prima del ROAS.
   - Se il target dichiarato e' sotto il pareggio (per esempio CPA 25 € su uno scontrino di 45 € con break-even a ROAS 2,2, cioe' ROAS 1,8), usa il pareggio come linea di decisione. Fa eccezione il caso in cui l'LTV (riacquisti) giustifichi di piu'.
   - Il target decide vincitori e scala: sbagliarlo falsa tutto il resto.
+- **Tracciamento, prima di ogni giudizio** (interpretazione nostra, da un account lead gen reale nel 2026):
+  - landing page view diviso link click: di solito sopra il 60 %; vicino a zero vuol dire che il pixel non carica sulla landing;
+  - eventi dell'evento di ottimizzazione negli ultimi 7 giorni, per evento e per URL (con il connettore Meta, `ads_get_dataset_stats`): zero con spesa attiva vuol dire algoritmo cieco;
+  - in UE il pixel spesso parte solo dopo il consenso del banner cookie, e da telefono quasi nessuno accetta. Si passa all'instant form o a un evento lato server con il consenso raccolto nel form, mai aggirando il banner;
+  - finche' il tracciamento e' rotto nessun giudizio su ads o pack regge, e ripiegare sull'obiettivo Traffico compra solo clic.
 - **Audience segments** (Breakdown): quanta spesa va su new, engaged ed existing. Nel prospecting gli existing devono essere quasi a zero; Sam vede spesso il 40-50 % con frequenza 25 in 30 giorni.
 - **Struttura:**
   - quante campagne e ad set ci sono, e se ci sono ads nuove aggiunte a campagne consolidate o ad set in ABO a pioggia;
@@ -136,6 +141,7 @@ Procedura completa e motivazioni: `references/test-e-pack.md`.
   - "Flex media" tocca il media: tienilo solo se le anteprime nei placement sono corrette.
 - Escludere segmenti deboli invece di correggerli con le value rules; interessi e audience ristrette.
 - Ottimizzare per add to cart, checkout o eventi custom.
+- Ripiegare sull'obiettivo Traffico quando il pixel non registra: si ripara il tracciamento o si passa all'instant form.
 - Varianti che cambiano solo il titolo o un filtro.
 
 ## Lead gen, esperienze e budget piccoli (sintesi)

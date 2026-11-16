@@ -56,7 +56,7 @@ I sottotitoli sono automatici: nomi e cifre possono essere imprecisi. Alcune des
 ## Da verificare prima di usare
 
 1. **Andromeda 2.0:** titolo, data e numeri del white paper (+8,3 % di click, +15,7 % di conversioni), e se e quando la v2 e' stata rilasciata.
-2. **Il connettore Meta per Claude:** URL ufficiale, disponibilita' per gli account europei, nomi attuali di Cowork, live artifacts e scheduled tasks.
+2. **Il connettore Meta per Claude:** sugli account europei funziona (verificato a novembre 2026 su un account in euro: campagne, ad set, ads, bozze, statistiche del pixel e registro attivita'). Restano da verificare l'URL ufficiale e i nomi attuali di Cowork, live artifacts e scheduled tasks.
 3. **Spending limits minimi molto bassi** (2-6 €) in CBO con obiettivo Leads; value rules e attribuzione incrementale per gli eventi lead e nell'UE.
 4. **Il formato unico** "16x9 a vertical with a 4x5 safe zone" e i nomi degli enhancements nell'interfaccia attuale.
 5. **Le affermazioni senza fonte Meta:** il pixel addestrato sugli eventi negativi; i post ID che "non si trasferiscono"; "the more objections we kill, the wider our targeting gets".
