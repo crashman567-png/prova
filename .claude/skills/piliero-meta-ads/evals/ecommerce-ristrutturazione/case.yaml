@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: ecommerce-ristrutturazione
+expected_outcome: |
+  Un piano di ristrutturazione coerente con il sistema Piliero: audit degli errori (interessi,
+  pause frequenti, ads nuove in ad set vecchi, flexible, evento add to cart), struttura M1 con
+  prospecting CBO a pack per avatar e concept e retention, minimo del pack nuovo calcolato come
+  il piu basso tra 1 CPA (25 euro) e il 20 per cento del budget (30 euro), evento Purchase,
+  niente scala verticale finche il ROAS e sotto il break-even, regola sugli enhancements.

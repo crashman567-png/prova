@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: surf-camp-30-euro
+expected_outcome: |
+  Un piano che riconosce che Piliero lavora su e-commerce e applica l'adattamento: evento Lead,
+  una campagna CBO senza retargeting a parte, pack = un body con 3-5 hook, un pack in test alla
+  volta con minimo pari al piu basso tra il costo per lead target e il 20 per cento del budget
+  (circa 6 euro), verdetto al giorno 14, definizione di vincitore adatta a poche ads,
+  calendario di 6 settimane che lancia i 4 body come pack in sequenza, niente cost cap.

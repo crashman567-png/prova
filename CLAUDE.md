@@ -18,7 +18,9 @@ Current skills:
 - `revel-meta-leadgen`: Revel Loughlin's Meta Ads lead generation method, from 5 videos (Sep 2025 - Nov 2026); sources listed in `references/fonti-e-casi-studio.md`
 - `modular-video-ads-system`: v2 of the owner's own modular video ads system (synced from claude.ai and upgraded here; keep the same name so the package replaces the original). Adds concept-first design for Andromeda, Hormozi's body/CTA grid, optional objection and pretext modules, and an internal launch/test protocol
 
-Research notes (full-transcript studies, Italian) live in `ricerca/`: `hormozi-ads-leadgen-note.md` and `sam-piliero-meta-ads-note.md`.
+- `piliero-meta-ads`: Sam Piliero's Meta Ads system (the four-level "M4 system": structure, creative, breakdowns/value rules, cost controls), from 23 videos (Dec 2025 - Nov 2026), with an adaptation for lead gen and 10-50 EUR/day budgets
+
+Research notes (full-transcript studies, Italian) live in `ricerca/`: `hormozi-ads-leadgen-note.md`, `sam-piliero-meta-ads-note.md`, `sam-piliero-approfondimento-struttura-test.md`, `sam-piliero-approfondimento-creativita-ai.md`. The two deep-dive files number their videos independently (both start at V7), so cite videos by title and date, not by V number.
 
 ## Context About the Owner: Look It Up, Never Ask
 
