@@ -215,17 +215,24 @@ Leggi `references/hook-types.md`. In sintesi:
 ## Dopo le riprese: lancio e test (solo Stefano)
 
 `references/lancio-e-test.md` contiene il protocollo completo. In breve:
-- **Struttura per budget.** Sotto circa 5 volte il costo per risultato target al giorno
-  (il caso tipico dei clienti Stoic), un ad set per concept con budget proprio e
-  giudizio al giorno 4 (Revel). Sopra quella soglia, o con piu vincitori, una campagna
-  con budget unico divisa in "pack" per concept (Piliero).
-- **Budget minimo per ad:** tetto di costo per risultato diviso 4, mai sotto circa 10 €
-  al giorno.
+- **Struttura.**
+  - Da circa 20-30 € al giorno in su: una campagna con budget unico (CBO) divisa in
+    "pack", uno per concept, con gli hook come iterazioni dentro il pack (metodo M4 di
+    Piliero, skill `piliero-meta-ads`).
+  - Sotto i 20 € al giorno, o per offerte da oltre circa 1.000 € a vendita: un ad set
+    per concept con budget proprio e giudizio al giorno 4 (Revel). Piliero stesso
+    ammette l'ABO per il biglietto alto.
+- **Budget di test.**
+  - Con i pack: il minimo del pack nuovo e' il piu basso tra 1 costo per lead target e
+    il 20 % del budget, tenuto per 7 giorni e poi tolto.
+  - Con l'ABO: budget per ad uguale al tetto diviso 4, mai sotto circa 10 € al giorno.
 - **Dopo il primo vincitore, 70/20/10:**
   - 70 % varianti del vincitore;
   - 20 % idee vicine;
   - 10 % esperimenti.
-- **Retargeting separato e stabile,** con le obiezioni e il riepilogo dell'offerta.
+- **Obiezioni e pubblico caldo.** Con budget piccoli niente campagna di retargeting a
+  parte: nel metodo M4 chi ha gia' visitato resta nella stessa campagna. Le O1-O4 vanno
+  in un pack "fondo del funnel", oppure si montano dentro le ads principali.
 - **Giudizio sul risultato vero** (posto prenotato, abbonamento, call), non sul costo
   per lead. Nei prodotti a biglietto basso i lead economici possono andare benissimo:
   Art of Waves ha preso 420 lead a 0,42 € e ha venduto 12 posti su 12.

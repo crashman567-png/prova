@@ -17,29 +17,38 @@ Indice: 0. Numeri prima di lanciare · 1. Struttura in base al budget · 2. Come
 
 ## 1. Struttura in base al budget
 
-**Budget piccolo**, sotto circa 5 volte il costo per lead target al giorno. E' il caso tipico dei clienti Stoic.
-- Campagna con budget a livello di ad set (ABO), un **ad set per concept**, cioe' avatar + body.
-- Dentro ogni ad set c'e' **un ad**, con l'hook che si ritiene migliore. Se il budget lo permette, al massimo 2-3 ads con hook davvero diversi, anche nell'immagine. Ogni ad deve stare sopra il minimo.
-- Se i concept sono piu di quanti il budget ne regge, si lanciano a ondate di 4 giorni: per esempio 4 concept, 2 per ondata.
-- Perche': con poche ads in un ad set Meta spinge 2-3 creativita' e affama le altre, e non sai quale concept e' buono (Revel). La struttura di Piliero richiede che i minimi di spesa stiano entro il 20 % del budget, e con budget piccoli quella matematica non regge.
-
-**Budget medio o grande**, almeno circa 5 volte il costo per lead target al giorno, oppure quando ci sono 2 o piu' concept vincenti (Piliero).
-- Una campagna di prospecting con budget di campagna (CBO).
-- Un **pack** (ad set) per avatar + concept, con 3-8 ads, cioe' hook diversi sullo stesso body. Gli avatar non si mescolano mai nello stesso pack.
-- Ogni nuovo batch di creativita' va in un **pack nuovo**, con un minimo di spesa giornaliera pari a circa un costo per lead target, per 7 giorni.
-- La somma dei minimi resta entro il 20 % del budget.
+**Da circa 20-30 € al giorno in su: metodo M4 di Piliero.** Dettagli nella skill `piliero-meta-ads`.
+- Una campagna di prospecting con budget di campagna (CBO). Chi ha gia' visitato resta dentro. A parte c'e' solo la retention, e solo se c'e' riacquisto vero.
+- Un **pack** (ad set) per avatar + concept: un body con 2-8 hook come ads separate. Gli avatar non si mescolano mai nello stesso pack.
+- Ogni nuovo batch di creativita' va in un **pack nuovo**. Mai aggiungere ads a un pack vecchio, mai duplicare i vincitori.
+- **Minimo del pack nuovo:** il piu basso tra 1 costo per lead target e il 20 % del budget, contando tutti i minimi attivi. Si tiene per 7 giorni, poi si toglie e l'ad set resta attivo.
+- Con 20-50 € al giorno questo vuol dire un pack in test alla volta, con minimi di 4-10 € al giorno.
 - I pack in calo non si spengono: si mette un tetto massimo di spesa in percentuale (maximum).
+
+**Sotto i 20 € al giorno, oppure offerte da oltre circa 1.000 € a vendita: metodo Revel.**
+- Campagna con budget a livello di ad set (ABO), un **ad set per concept**, con **un ad**: l'hook che si ritiene migliore. Ogni ad sopra il minimo (tetto diviso 4, mai sotto circa 10 €).
+- Se i concept sono piu di quanti il budget ne regge, si lanciano a ondate di 4 giorni.
+- Perche':
+  - a 10-20 € al giorno i minimi di Piliero diventano quasi simbolici e le decisioni slittano a 14-21 giorni, mentre un ad per ad set si legge prima;
+  - per il biglietto alto Piliero stesso ammette l'ABO, perche' "creative learnings" arrivano troppo lentamente.
 
 **Sempre, qualunque sia il budget:**
 - dal prospecting si escludono clienti e lead gia' presenti nel CRM;
 - placement aperti, salvo click accidentali (Revel);
 - niente interessi: il targeting lo fanno l'avatar chiamato in causa e la creativita' (tutti e tre gli autori, con sfumature);
-- creative enhancements Advantage+ spenti (Revel; Piliero non ne parla);
+- creative enhancements Advantage+:
+  - Revel li spegne tutti;
+  - Piliero spegne quelli che modificano immagine o video e tiene quelli che aggiungono elementi intorno (overlay, miglioramenti del testo);
+  - generazione di immagini spenta per entrambi;
 - per landing e form esterni serve la Conversions API, se no i numeri in Ads Manager non sono affidabili (Revel).
 
 ## 2. Come si giudica
 
-- **Giorno 4, keep or kill.** Ogni ad, o concept, si confronta con il tetto (Revel). Nei giorni 1-3 si guarda ma non si tocca.
+- **Con l'ABO, giorno 4, keep or kill.** Ogni ad, o concept, si confronta con il tetto (Revel). Nei giorni 1-3 si guarda ma non si tocca.
+- **Con i pack, giorno 7** (Piliero):
+  - un pack che ha speso esattamente il suo minimo e' un probabile perdente: si toglie il minimo e lo si lascia svanire, senza pausa;
+  - un pack che ha speso oltre e' candidato vincente;
+  - con budget piccoli la conferma arriva al giorno 14 (adattamento nella skill `piliero-meta-ads`).
 - **Vincitore.** In CBO un pack vince se spende piu' del 5 % del budget di campagna ed e' entro il tetto (Piliero).
 - **Hit rate.** Un hit rate normale e' circa il 5 %, cioe' circa un vincitore ogni 20 ads. Si misura per cliente e per batch.
 - **Segnale.** Secondo l'insider di Meta servono 40-50 conversioni per un segnale forte.
@@ -72,9 +81,12 @@ Indice: 0. Numeri prima di lanciare · 1. Struttura in base al budget · 2. Come
 
 ## 5. Retargeting e obiezioni (Hormozi, Piliero)
 
-- **Struttura.** Un ad set separato e stabile per chi ha gia' interagito, con i moduli O1-O4 (un'obiezione per video) e un riepilogo dell'offerta: prezzo, risultato, rischio azzerato, una scadenza vera.
-- **Perche' regge a lungo.** Il pubblico e' piccolo e si rinnova, quindi la stessa creativita' puo' restare a lungo. Tutta la produzione nuova va al pubblico freddo, che ne consuma molta di piu'.
-- **Il disaccordo.** Revel mette tutto nello stesso ad, senza fasi di funnel. Con budget molto piccoli si puo' saltare il retargeting e montare un'obiezione dentro le ads principali.
+- **Con budget piccoli: niente campagna di retargeting a parte.**
+  - Nel metodo M4 di Piliero (luglio 2026) chi ha gia' visitato resta nella campagna di prospecting.
+  - Revel mette tutto nello stesso ad.
+  - I moduli O1-O4 (un'obiezione per video) vanno in un pack "fondo del funnel", oppure si montano dentro le ads principali.
+- **Con budget grandi e pubblico caldo numeroso** si puo' tenere un ad set separato e stabile con O1-O4 e un riepilogo dell'offerta: prezzo, risultato, rischio azzerato, una scadenza vera. Il pubblico e' piccolo e si rinnova, quindi la stessa creativita' regge a lungo (Hormozi).
+- **Retention** (clienti che riacquistano: rinnovi CSA, ospiti che tornano): campagna piccola a parte, solo con una lista di almeno circa 1.000 persone.
 
 ## 6. Ciclo di feedback
 

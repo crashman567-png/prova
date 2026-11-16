@@ -16,10 +16,10 @@ Studio completo delle trascrizioni di 16 video, fatto il 15 novembre 2026. Le no
 | Tema | Revel | Hormozi | Piliero | Per Stoic Ads Studio |
 |---|---|---|---|---|
 | Chi fa il targeting | L'ad: hook assumptivo, chiamata in causa, niente interessi | In parte: "dentist in the copy" fa arrivare l'ad ai dentisti, ma nel 2024 usava ancora lookalike | Il messaggio: "whoever we talk about in the ad, that is who sees the ad" | Avatar chiamato in causa nell'hook e nell'immagine, niente interessi |
-| Struttura | ABO, un ad per ad set | Non ne parla | CBO a "pack" di 3-8 ads per avatar + concept, minimi di 7 giorni | ABO sotto circa 5 volte il costo per lead target al giorno, pack CBO sopra |
+| Struttura | ABO, un ad per ad set | Non ne parla | Metodo M4: 2 campagne (prospecting CBO e retention), pack da 2-8 ads per avatar + concept; ABO solo per biglietti oltre 1.000 $ | Pack CBO da circa 20-30 € al giorno in su; ABO sotto, o per il biglietto alto |
 | Unita' di test | La singola ad | Il vincitore da spremere | Il pack, cioe' il concept | Il concept (avatar + body) |
-| Budget minimo | 30 AUD per ad (locale), 50 (nazionale) | Non ne parla | Un costo per acquisizione per pack al giorno per 7 giorni, minimi entro il 20 % | Tetto ÷ 4 per ad, almeno circa 10 € |
-| Quando giudicare | Giorno 4 contro il tetto | Far correre a lungo i vincitori | Vince chi spende piu' del 5 % ed e' a target; niente pause, ma tetti di spesa | Kill al giorno 4, vincitori lasciati correre |
+| Budget minimo | 30 AUD per ad (locale), 50 (nazionale) | Non ne parla | Il piu basso tra 1 costo per acquisizione e il 20 % del budget, per pack nuovo, per 7 giorni | Pack: la regola di Piliero. ABO: tetto ÷ 4 per ad, almeno circa 10 € |
+| Quando giudicare | Giorno 4 contro il tetto | Far correre a lungo i vincitori | Giorno 7: chi ha speso solo il minimo e' perdente e lo si lascia svanire, senza pausa; vince chi spende oltre il 5 % ed e' a target | ABO: giorno 4. Pack: giorno 7, conferma al giorno 14 con budget piccoli |
 | Scala | Orizzontale, nuove ads | "Spend more" e 10-50 volte piu' creativita' | Verticale aggressiva e angoli sommati | Orizzontale; verticale solo molto sotto il tetto |
 | Volume creativo | Tanti tipi di ad, il topic prima del formato | 80 % delle risorse sui vincitori, 70/20/10, 90 % UGC | Volume solo se di qualita', hit rate 5 %, prima largo poi profondo | Pochi concept veri al primo giro, poi iterazioni |
 | Hook | Assumptivo con qualificatore; evitare "se sei X, questo e' per te" | Vale l'80 %: curiosita', chiamata in causa ed esclusione, livelli di consapevolezza, momenti vissuti | Chiamata diretta dell'avatar | Chiamata specifica (avatar + problema); test contro l'assumptivo |
@@ -27,8 +27,8 @@ Studio completo delle trascrizioni di 16 video, fatto il 15 novembre 2026. Le no
 | Offerte | Offerta dentro il contenuto, garanzie a sandwich | Stessa offerta con pretesti diversi, scarsita' vera, nome del risultato | Aggiungere valore, niente sconti duri | Offerta con nome prima degli script, pretesti veri, niente sconti |
 | Qualita' dei lead | Lead economici spesso a basso intento: giudicare sul costo per call | L'attrito regola la qualita', costo per call | Ottimizzare sull'evento piu' profondo | Giudicare sul risultato vero; nel biglietto basso i lead economici vanno bene |
 | Prova | Testimonial telefonica, recensioni con voce sopra | L'80 % delle sue ads e' prova; ammissioni oneste | Creator, fondatore, partnership ads | Numeri veri, voci naturali, ammissioni oneste, mai il copione da testimonial |
-| Retargeting | Tutto nello stesso ad, niente fasi di funnel | Retargeting stabile; il pubblico freddo vuole piu' creativita' | Obiezioni in fondo al funnel, retention separata | Ad set separato con O1-O4, se il budget lo regge |
-| Creative enhancements | Spenti | Non ne parla | Non ne parla (niente dynamic creative) | Spenti |
+| Retargeting | Tutto nello stesso ad, niente fasi di funnel | Retargeting stabile; il pubblico freddo vuole piu' creativita' | In M4 chi ha visitato resta nel prospecting; obiezioni in fondo al funnel; retention separata | Con budget piccoli niente retargeting a parte; O1-O4 in un pack o dentro le ads |
+| Creative enhancements | Spenti | Non ne parla | Spenti quelli che modificano immagine o video, accesi quelli intorno; niente flexible e niente dynamic creative | Regola di Piliero; generazione di immagini sempre spenta |
 | AI | Claude collegato a CRM e Meta; campagna automatizzata, sperimentale | Con l'AI contano di piu' prova e storie verificabili | Andromeda 2.0 considera piu' ads per persona | AI per script e varianti; la voce resta umana |
 
 ## Quando usare cosa
@@ -40,7 +40,10 @@ Per il cliente tipico di Stoic (piccolo business esperienziale, 10-50 € al gio
 
 ## Dove non sono d'accordo, e come decidere
 
-- **Struttura (ABO contro CBO a pack):** decide il budget. La matematica dei minimi di Piliero non regge con budget piccoli.
+- **Struttura (ABO contro CBO a pack):** decidono budget e biglietto.
+  - Piliero usa la CBO a pack quasi sempre (90 % della spesa della sua agenzia) e l'ABO solo per biglietti oltre 1.000 $, lead gen compresa. Quello e' esattamente il terreno di Revel: le due posizioni sono meno lontane di quanto sembri.
+  - Il minimo di Piliero (il piu basso tra 1 costo per acquisizione e il 20 % del budget) regge anche a 20-50 € al giorno, con un pack in test alla volta.
+  - Sotto i 20 € al giorno un ad per ad set si legge prima.
 - **Scala (orizzontale contro verticale):** dipende da quanto si e' sotto il tetto.
 - **Stile dell'hook (assumptivo contro chiamata in causa):** si testa, vedi l'esperimento 1 in `lancio-e-test.md`.
 - **Fiducia prima o dopo:**
