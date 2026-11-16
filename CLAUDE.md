@@ -12,15 +12,25 @@ A library of Claude skills distilled from studying creators' methods (no applica
 - `.claude/skills/<name>/references/`: detail files the SKILL.md points to (progressive disclosure)
 - `.claude/skills/<name>/evals/`: test cases in the `claude plugin eval` layout (`prompt.md`, `case.yaml`, `graders/`); excluded from packaging
 - `dist/<name>.skill`: packaged skill for upload to claude.ai (zip of the skill folder, without `evals/`)
+- `.claude/agents/<name>.md`: specialized subagents (Italian), loaded automatically by Claude Code in this repo; each description says when the agent should start on its own
 
 Current skills:
 
 - `revel-meta-leadgen`: Revel Loughlin's Meta Ads lead generation method, from 5 videos (Sep 2025 - Nov 2026); sources listed in `references/fonti-e-casi-studio.md`
 - `modular-video-ads-system`: v2 of the owner's own modular video ads system (synced from claude.ai and upgraded here; keep the same name so the package replaces the original). Adds concept-first design for Andromeda, Hormozi's body/CTA grid, optional objection and pretext modules, and an internal launch/test protocol
-
 - `piliero-meta-ads`: Sam Piliero's Meta Ads system (the four-level "M4 system": structure, creative, breakdowns/value rules, cost controls), from 23 videos (Dec 2025 - Nov 2026), with an adaptation for lead gen and 10-50 EUR/day budgets
 
 Research notes (full-transcript studies, Italian) live in `ricerca/`: `hormozi-ads-leadgen-note.md`, `sam-piliero-meta-ads-note.md`, `sam-piliero-approfondimento-struttura-test.md`, `sam-piliero-approfondimento-creativita-ai.md`. The two deep-dive files number their videos independently (both start at V7), so cite videos by title and date, not by V number.
+
+Subagents in `.claude/agents/`, each starting on its own when its kind of work comes up:
+
+- `analista-meta-ads`: read-only Meta reports and diagnosis: tracking first, then numbers, 2-standard-deviation anomalies, winners and potential, drafts. Meta write tools are in its `disallowedTools`
+- `architetto-campagne`: campaign structure before launch: optimization event and tracking, budget band, packs, calendar, draft review. Read-only, with the same write block
+- `sceneggiatore-video-ads`: modular video ads documents and winner iterations, on top of `modular-video-ads-system`
+- `ricercatore-creator`: creator studies through the Apify transcript pipeline into `ricerca/`
+- `custode-skill`: validates and packages skills after every edit
+
+Writes on Meta (publish, pause, budgets, new ads) happen only in the main thread, after the owner's explicit approval. The owner prefers Chrome (Claude in Chrome, `mcp__claude-in-chrome__*` tools) over the Meta connector when the session has it; cloud sessions do not, so there the agents use the connector. Recurring client reports are claude.ai scheduled tasks, not repo files.
 
 ## Context About the Owner: Look It Up, Never Ask
 
@@ -39,6 +49,7 @@ Never infer a client's country from the language of their ads; check the CRM rec
 - Mark interpretations that are not the creator's own words, and keep a "Lacune" (gaps) list of what has not been studied yet
 - After editing a skill, re-validate and re-package it with the skill-creator scripts (`quick_validate`, `package_skill`)
 - Never use em dashes or en dashes in any content (the owner's fixed preference): use a normal hyphen, colon or comma
+- The repo is public: never commit client data (client names next to performance numbers, ad account or pixel IDs, contact details). Client reports and documents stay in the conversation, Notion or Drive
 
 ## Git Workflow
 
